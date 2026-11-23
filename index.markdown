@@ -132,7 +132,7 @@ If there was any doubt about the effect of COVID-19, the relation between positi
 
 <figure style="text-align: center; margin: 2em 0;">
   <iframe 
-    src="/plots/covid_crime_plot.html"
+    src="{{ '/plots/covid_crime_plot.html' | relative_url }}"
     style="width: 100%; height: 500px; border: none;"
     title="Interactive COVID crime plot"
   ></iframe>
@@ -153,7 +153,7 @@ Suprisingly, it appears that crime incidents for burglary increase during the pa
 For a deeper examination of the extent to which each crime category was impacted, see the graph below. 
 
 <figure style="text-align: center; margin: 2em 0;">
-  <img src="/plots/mean_daily_crimes.svg" style="width:100%; height:auto;" alt="Mean daily crimes over time" />
+  <img src="{{ '/plots/mean_daily_crimes.svg' | relative_url }}" style="width:100%; height:auto;" alt="Mean daily crimes over time" />
   <figcaption style="font-size: 0.95rem; color: #777; margin-top: 0.5em;">
     Figure 2. Difference in average crime occurences in San Fransisco in lockdown (orange) and non-lockdown (dark purple) periods. Each set of bars is labeled with the percentage increase (green text) decrease (red text).
   </figcaption>
@@ -187,7 +187,7 @@ Previous analysis revealed that burglary incidents increased during the lockdown
 
 <figure style="text-align: center; margin: 2em 0;">
   <iframe 
-    src="/plots/burglary_difference_map.html"
+    src="{{ '/plots/burglary_difference_map.html' | relative_url }}"
     style="width: 100%; height: 500px; border: none;"
     title="Interactive COVID crime plot"
   ></iframe>
